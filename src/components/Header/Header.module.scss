@@ -1,0 +1,17 @@
+.header {
+    background: var(--colour-light-blue);
+    margin-bottom: var(--content-header-footer-gap);
+}
+
+.title {
+    color: var(--colour-white);
+    margin: 0;
+    padding: 40px 0;
+    font-size: var(--text-large);
+}
+
+.nav {
+    background: var(--colour-dark-blue);
+    height: 40px;
+}
+

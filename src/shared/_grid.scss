@@ -1,0 +1,35 @@
+@import 'sass-variables';
+
+.grid {
+    display: block;
+    max-width: var(--content-max-width);
+    width: 100%;
+    margin: 0 auto;
+
+    * {
+        background: yellow;
+    }
+}
+
+// Tablet
+@media (min-width: $breakpoint-tablet-min) {
+    .grid {
+        display: grid;
+
+        &--checkout {
+            grid-template-columns: 1fr 250px;
+            grid-template-areas: "main sidebar";
+            row-gap: var(--grid-row-gap);
+            column-gap: var(--grid-column-gap);
+        }
+    }
+}
+
+// Desktop
+@media (min-width: $breakpoint-desktop-min) {
+    .grid {
+        &--checkout {
+            grid-template-columns: 1fr 350px;
+        }
+    }
+}

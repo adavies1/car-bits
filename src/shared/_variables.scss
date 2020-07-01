@@ -1,0 +1,40 @@
+@import "sass-variables";
+
+:root {
+    --colour-dark-blue: #173F5F;
+    --colour-light-blue: #20639B;
+    --colour-green: #3CAEA3;
+    --colour-yellow: #F6D55C;
+    --colour-orange: #ED553B;
+    --colour-white: #F5F5F5;
+
+    --content-gutter: 10px;
+    --content-header-footer-gap: 20px;
+    --content-max-width: 1280px;
+
+    --grid-column-gap: 10px;
+    --grid-row-gap: 10px;
+
+    --text-large: #{rem(40px)};
+}
+
+// Tablet
+@media(min-width: $breakpoint-tablet-min) {
+    :root {
+        --content-gutter: 20px;
+        --content-header-footer-gap: 40px;
+
+        --grid-column-gap: 20px;
+        --grid-row-gap: 20px;
+    }
+}
+
+// Desktop
+@media(min-width: $breakpoint-desktop-min) {
+    :root {
+        --content-gutter: 40px;
+
+        --grid-column-gap: 40px;
+        --grid-row-gap: 40px;
+    }
+}
