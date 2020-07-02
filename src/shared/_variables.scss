@@ -15,7 +15,15 @@
     --grid-column-gap: 10px;
     --grid-row-gap: 10px;
 
-    --text-large: #{rem(40px)};
+    --text-small: #{rem(14px)};
+    --text-normal: #{rem(16px)};
+    --text-medium: #{rem(18px)};
+    --text-large: #{rem(20px)};
+
+    --text-title-hero: #{rem(40px)};
+    --text-title-large: #{rem(30px)};
+    --text-title-medium: #{rem(27px)};
+    --text-title-small: #{rem(24px)};
 }
 
 // Tablet
@@ -26,6 +34,11 @@
 
         --grid-column-gap: 20px;
         --grid-row-gap: 20px;
+
+        --text-title-hero: #{rem(54px)};
+        --text-title-large: #{rem(40px)};
+        --text-title-medium: #{rem(32px)};
+        --text-title-small: #{rem(24px)};
     }
 }
 

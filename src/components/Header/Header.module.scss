@@ -1,13 +1,29 @@
+@import "../../shared/sass-variables";
+
 .header {
     background: var(--colour-light-blue);
     margin-bottom: var(--content-header-footer-gap);
 }
 
+.top {
+    padding: 20px 0;
+}
+
 .title {
     color: var(--colour-white);
-    margin: 0;
-    padding: 40px 0;
-    font-size: var(--text-large);
+    padding: 0;
+    font-size: var(--text-title-hero);
+}
+
+.subtitle {
+    color: var(--colour-white);
+    margin: 4px 0 0;
+    font-weight: 600;
+    font-size: var(--text-medium);
+}
+
+.logo {
+    width: 120px;
 }
 
 .nav {
@@ -15,3 +31,27 @@
     height: 40px;
 }
 
+
+@media (min-width: $breakpoint-tablet-min) {
+    .top {
+        display: inline-flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .title {
+        margin: -15px 0 0;
+    }
+
+    .logo {
+        margin-right: 20px;
+        width: 200px;
+    }
+}
+
+
+@media (min-width: $breakpoint-desktop-min) {
+    .logo {
+        width: 250px;
+    }
+}
