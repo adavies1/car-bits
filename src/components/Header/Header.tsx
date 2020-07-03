@@ -1,6 +1,8 @@
 import React, { FunctionComponent } from 'react';
 import css from './Header.module.scss';
 
+import Nav from '../Nav/Nav';
+
 type HeaderProps = {
     title: string
     subtitle?: string
@@ -17,7 +19,7 @@ const header:FunctionComponent<HeaderProps> = props => (
                 </div>
             </div>
         </div>
-        <nav className={css.nav}></nav>
+        <Nav/>
     </header>
 );
 

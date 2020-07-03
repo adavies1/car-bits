@@ -1,0 +1,22 @@
+.nav {
+    background: var(--colour-dark-blue);
+    height: 40px;
+}
+
+.list {
+    display: flex;
+    height: 100%;
+    align-items: center;
+}
+
+
+.link {
+    color: var(--colour-white);
+    padding: 0 20px;
+    font-weight: bold;
+    text-decoration: none;
+
+    &:hover {
+        text-decoration: underline;
+    }
+}
