@@ -6,7 +6,9 @@
     --colour-green: #3CAEA3;
     --colour-yellow: #F6D55C;
     --colour-orange: #ED553B;
-    --colour-white: #F5F5F5;
+    --colour-white: #F9F9F9;
+    --colour-black: #333333;
+    --colour-grey: #CCCCCC;
 
     --content-gutter: 10px;
     --content-header-footer-gap: 20px;
@@ -21,9 +23,9 @@
     --text-large: #{rem(20px)};
 
     --text-title-hero: #{rem(40px)};
-    --text-title-large: #{rem(30px)};
-    --text-title-medium: #{rem(27px)};
-    --text-title-small: #{rem(24px)};
+    --text-title-large: #{rem(24px)};
+    --text-title-medium: #{rem(22px)};
+    --text-title-small: #{rem(20px)};
 }
 
 // Tablet
@@ -36,9 +38,9 @@
         --grid-row-gap: 20px;
 
         --text-title-hero: #{rem(54px)};
-        --text-title-large: #{rem(40px)};
-        --text-title-medium: #{rem(32px)};
-        --text-title-small: #{rem(24px)};
+        --text-title-large: #{rem(32px)};
+        --text-title-medium: #{rem(24px)};
+        --text-title-small: #{rem(22px)};
     }
 }
 

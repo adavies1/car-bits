@@ -2,10 +2,26 @@
     font-family: 'Raleway', sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+    color: var(--colour-black);
 }
 
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Bitter', serif;
     font-weight: bold;
-
 }
+
+h1,
+.text-title-large {
+    font-size: var(--text-title-large);
+}
+
+h2,
+.text-title-medium {
+    font-size: var(--text-title-medium);
+}
+
+h3,
+.text-title-small {
+    font-size: var(--text-title-small);
+}
+
