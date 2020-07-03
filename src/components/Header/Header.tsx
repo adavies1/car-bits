@@ -1,4 +1,5 @@
 import React, { FunctionComponent } from 'react';
+import { Link } from 'react-router-dom';
 import css from './Header.module.scss';
 
 import Nav from '../Nav/Nav';
