@@ -9,6 +9,11 @@
     align-items: center;
 }
 
+.basketItem {
+    flex-grow: 1;
+    text-align: right;
+}
+
 
 .link {
     color: var(--colour-white);

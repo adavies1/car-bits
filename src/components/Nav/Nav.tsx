@@ -3,8 +3,7 @@ import { Link } from 'react-router-dom';
 import css from './Nav.module.scss';
 
 const links = [
-    { path: '/', text: 'Products' },
-    { path: '/basket', text: 'Basket' },
+    { path: '/', text: 'Home' },
     { path: '/checkout', text: 'Checkout' },
 ]
 
@@ -20,6 +19,10 @@ const nav:FunctionComponent<NavProps> = props => (
                     <Link className={css.link} to={link.path}>{link.text}</Link>
                 </li>
             ))}
+
+            <li className={`${css.listItem} ${css.basketItem}`}>
+                <Link className={css.link} to='/basket'>Basket</Link>
+            </li>
         </ul>
     </nav>
 );
