@@ -1,0 +1,67 @@
+.tile {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid var(--colour-dark-blue);
+    border-radius: 5px;
+    background: var(--colour-light-grey);
+    overflow: hidden;
+}
+
+.image {
+    height: 200px;
+    width: 100%;
+    object-fit: contain;
+    background-color: var(--colour-white);
+    border-bottom: 1px solid var(--colour-grey);
+}
+
+.textContainer {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;;
+    justify-content: space-between;
+    margin: 10px;
+}
+
+.textTop {
+    flex-grow: 1;
+}
+
+.title {
+    margin-bottom: 10px;
+    font-size: var(--text-medium);
+}
+
+.description {
+    font-size: var(--text-small);
+    margin-bottom: 20px;
+}
+
+.leftRight {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.price {
+    display: inline-block;
+    margin-bottom: 10px;
+    font-size: var(--text-small);
+}
+
+.stock {
+    display: inline-block;
+    margin: 0 0 10px 20px;
+    font-size: var(--text-small);
+    font-weight: 600;
+    text-align: right;
+
+    &.available {
+        color: var(--colour-light-blue);
+    }
+}
+
+.variants {
+    width: 100%;
+    margin-bottom: 10px;
+}

@@ -8,6 +8,7 @@
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Bitter', serif;
     font-weight: bold;
+    margin-bottom: 20px;
 }
 
 h1,
@@ -25,3 +26,23 @@ h3,
     font-size: var(--text-title-small);
 }
 
+// p,
+// span,
+// a,
+// div {
+//     font-size: var(--text-medium);
+// }
+
+header {
+    font-weight: bold;
+}
+
+strong {
+    font-weight: 600;
+}
+
+select {
+    background: var(--colour-white);
+    font-size: var(--text-small);
+    padding: 5px;
+}

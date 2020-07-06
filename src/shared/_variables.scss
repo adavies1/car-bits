@@ -6,8 +6,9 @@
     --colour-green: #3CAEA3;
     --colour-yellow: #F6D55C;
     --colour-orange: #ED553B;
-    --colour-white: #F9F9F9;
+    --colour-white: #FFFFFF;
     --colour-black: #333333;
+    --colour-light-grey: #F0F0F0;
     --colour-grey: #CCCCCC;
 
     --content-gutter: 10px;
@@ -17,10 +18,10 @@
     --grid-column-gap: 10px;
     --grid-row-gap: 10px;
 
-    --text-small: #{rem(14px)};
-    --text-normal: #{rem(16px)};
-    --text-medium: #{rem(18px)};
-    --text-large: #{rem(20px)};
+    --text-small: #{rem(16px)};
+    --text-normal: #{rem(18px)};
+    --text-medium: #{rem(20px)};
+    --text-large: #{rem(22px)};
 
     --text-title-hero: #{rem(40px)};
     --text-title-large: #{rem(24px)};

@@ -1,0 +1,1 @@
+export const money = (input: number) => input.toFixed(2).toString();
