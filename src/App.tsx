@@ -17,7 +17,7 @@ type AppState = {
 class App extends Component<AppProps, AppState> {
     render() {
         return (
-            <BrowserRouter>
+            <BrowserRouter basename="car-bits">
                 <Header title="CarBits.co.uk" subtitle="Helping keep sheds and bangers on the road since 1994"/>
                 <main className="container">
                     <Route path="/" exact component={Products}/>
