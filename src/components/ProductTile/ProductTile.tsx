@@ -16,7 +16,7 @@ type ProductTileProps = {
 
 const productTile:FunctionComponent<ProductTileProps> = props => (
     <li data-id={props.product.id} className={css.tile}>
-        <img className={css.image} src={props.product.image} alt={props.product.imageDescription} />
+        <img className={css.image} src={`${process.env.PUBLIC_URL}/${props.product.image}`} alt={props.product.imageDescription} />
         <div className={css.textContainer}>
             <div className={css.textTop}>
                 <header className={css.title}>{props.product.name}</header>

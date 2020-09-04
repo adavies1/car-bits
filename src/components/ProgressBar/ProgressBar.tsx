@@ -12,7 +12,7 @@ const progressBar:FunctionComponent<ProgressBarProps> = props => {
     return (
         <div className={css.outer}>
             <div className={css.container}>
-                <img className={css.car} src="/img/robin.png" alt="" style={{left: carLeft}}/>
+                <img className={css.car} src={`${process.env.PUBLIC_URL}/img/robin.png`} alt="" style={{left: carLeft}}/>
                 <ul className={css.list}>
                     {props.steps.map(step => {
                         return (
