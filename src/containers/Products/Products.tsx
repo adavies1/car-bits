@@ -42,7 +42,7 @@ class Products extends Component<ProductsProps, ProductsState> {
     }
 
     componentDidMount() {
-        axios.get<ProductResponse[]>('/api/products.json')
+        axios.get<ProductResponse[]>(`${process.env.PUBLIC_URL}/api/products.json`)
             .then(resp => {
                 this.setState({
                     products: resp.data,
