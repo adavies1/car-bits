@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/car-bits/static/css/main.5e1ffc1d.chunk.css",
-    "main.js": "/car-bits/static/js/main.70e8075a.chunk.js",
-    "main.js.map": "/car-bits/static/js/main.70e8075a.chunk.js.map",
+    "main.js": "/car-bits/static/js/main.ec933f0c.chunk.js",
+    "main.js.map": "/car-bits/static/js/main.ec933f0c.chunk.js.map",
     "runtime-main.js": "/car-bits/static/js/runtime-main.ab094cc0.js",
     "runtime-main.js.map": "/car-bits/static/js/runtime-main.ab094cc0.js.map",
     "static/js/2.8455d24f.chunk.js": "/car-bits/static/js/2.8455d24f.chunk.js",
     "static/js/2.8455d24f.chunk.js.map": "/car-bits/static/js/2.8455d24f.chunk.js.map",
     "index.html": "/car-bits/index.html",
-    "precache-manifest.c15c817f6e6d3f571e1f89cde504b3d1.js": "/car-bits/precache-manifest.c15c817f6e6d3f571e1f89cde504b3d1.js",
+    "precache-manifest.b4d78cd2194a576cdd14db28aeb17ad7.js": "/car-bits/precache-manifest.b4d78cd2194a576cdd14db28aeb17ad7.js",
     "service-worker.js": "/car-bits/service-worker.js",
     "static/css/main.5e1ffc1d.chunk.css.map": "/car-bits/static/css/main.5e1ffc1d.chunk.css.map",
     "static/js/2.8455d24f.chunk.js.LICENSE.txt": "/car-bits/static/js/2.8455d24f.chunk.js.LICENSE.txt"
@@ -17,6 +17,6 @@
     "static/js/runtime-main.ab094cc0.js",
     "static/js/2.8455d24f.chunk.js",
     "static/css/main.5e1ffc1d.chunk.css",
-    "static/js/main.70e8075a.chunk.js"
+    "static/js/main.ec933f0c.chunk.js"
   ]
 }
