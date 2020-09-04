@@ -1,22 +1,22 @@
 {
   "files": {
     "main.css": "/car-bits/static/css/main.3c07ef2c.chunk.css",
-    "main.js": "/car-bits/static/js/main.2246b37f.chunk.js",
-    "main.js.map": "/car-bits/static/js/main.2246b37f.chunk.js.map",
-    "runtime-main.js": "/car-bits/static/js/runtime-main.f312c108.js",
-    "runtime-main.js.map": "/car-bits/static/js/runtime-main.f312c108.js.map",
-    "static/js/2.50441aaf.chunk.js": "/car-bits/static/js/2.50441aaf.chunk.js",
-    "static/js/2.50441aaf.chunk.js.map": "/car-bits/static/js/2.50441aaf.chunk.js.map",
+    "main.js": "/car-bits/static/js/main.7da379c3.chunk.js",
+    "main.js.map": "/car-bits/static/js/main.7da379c3.chunk.js.map",
+    "runtime-main.js": "/car-bits/static/js/runtime-main.ab094cc0.js",
+    "runtime-main.js.map": "/car-bits/static/js/runtime-main.ab094cc0.js.map",
+    "static/js/2.8455d24f.chunk.js": "/car-bits/static/js/2.8455d24f.chunk.js",
+    "static/js/2.8455d24f.chunk.js.map": "/car-bits/static/js/2.8455d24f.chunk.js.map",
     "index.html": "/car-bits/index.html",
-    "precache-manifest.9444edec7b9214740ed6ca4603ce7e63.js": "/car-bits/precache-manifest.9444edec7b9214740ed6ca4603ce7e63.js",
+    "precache-manifest.23da7bd26a21665cf02965c7d6c60b9e.js": "/car-bits/precache-manifest.23da7bd26a21665cf02965c7d6c60b9e.js",
     "service-worker.js": "/car-bits/service-worker.js",
     "static/css/main.3c07ef2c.chunk.css.map": "/car-bits/static/css/main.3c07ef2c.chunk.css.map",
-    "static/js/2.50441aaf.chunk.js.LICENSE.txt": "/car-bits/static/js/2.50441aaf.chunk.js.LICENSE.txt"
+    "static/js/2.8455d24f.chunk.js.LICENSE.txt": "/car-bits/static/js/2.8455d24f.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.f312c108.js",
-    "static/js/2.50441aaf.chunk.js",
+    "static/js/runtime-main.ab094cc0.js",
+    "static/js/2.8455d24f.chunk.js",
     "static/css/main.3c07ef2c.chunk.css",
-    "static/js/main.2246b37f.chunk.js"
+    "static/js/main.7da379c3.chunk.js"
   ]
 }
