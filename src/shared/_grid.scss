@@ -1,30 +1,32 @@
 @import 'sass-variables';
 
 .grid {
-    display: block;
+    display: grid;
     max-width: var(--content-max-width);
     width: 100%;
     margin: 0 auto;
+    grid-template-columns: 1fr;
+    grid-template-areas: "col1";
+    row-gap: var(--grid-row-gap);
+    column-gap: var(--grid-column-gap);
+}
 
-    &--products {
-        display: grid;
-        grid-template-columns: 50% 50%;
-        grid-template-areas: "col1 col2";
-        row-gap: var(--grid-row-gap);
-        column-gap: var(--grid-column-gap);
+// Larger screen mobile
+@media (min-width: $breakpoint-mobile-min) {
+    .grid {
+        &--products {
+            grid-template-columns: 1fr 1fr;
+            grid-template-areas: "col1 col2";
+        }
     }
 }
 
 // Tablet
 @media (min-width: $breakpoint-tablet-min) {
     .grid {
-        display: grid;
-
         &--checkout {
             grid-template-columns: 1fr 250px;
             grid-template-areas: "main sidebar";
-            row-gap: var(--grid-row-gap);
-            column-gap: var(--grid-column-gap);
         }
 
         &--products {
