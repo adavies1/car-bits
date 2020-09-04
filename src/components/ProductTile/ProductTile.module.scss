@@ -45,29 +45,6 @@
     justify-content: space-between;
 }
 
-.price {
-    display: inline-block;
-    margin-bottom: 10px;
-    font-size: var(--text-small);
-}
-
-.stock {
-    display: inline-block;
-    margin: 0 0 10px 20px;
-    font-size: var(--text-small);
-    font-weight: 600;
-    text-align: right;
-
-    &.available {
-        color: var(--colour-light-blue);
-    }
-}
-
-.variants {
-    width: 100%;
-    margin-bottom: 10px;
-}
-
 
 @media (min-width: $breakpoint-desktop-min) {
     .image {
