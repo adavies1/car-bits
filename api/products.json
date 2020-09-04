@@ -1,0 +1,59 @@
+[
+    {
+        "id": 1,
+        "name": "Valve cover gasket",
+        "description": "A new high quality gasket to fix oil leaks coming from your valve cover. The set contains one valve cover gasket and 6 spark plug tube o-rings.",
+        "image": "/img/products/valve-cover-gasket.jpg",
+        "imageDescription": "Valve cover gasket",
+        "price": 19.99,
+        "stock": 99
+    },
+    {
+        "id": 2,
+        "name": "Intake manifold gasket",
+        "description": "A new high quality gasket to for your intake manifold.",
+        "image": "/img/products/intake-manifold-gasket.jpg",
+        "imageDescription": "Intake manifold gasket",
+        "price": 2.99,
+        "stock": 99
+    },
+    {
+        "id": 3,
+        "name": "Windscreen wipers",
+        "description": "Featuring a new design that will clear rain and insect gunk from your windscreen like never before!",
+        "image": "/img/products/windscreen-wipers.jpg",
+        "imageDescription": "Windscreen wipers",
+        "price": 7.99,
+        "stock": 99
+    },
+    {
+        "id": 4,
+        "name": "Tyres",
+        "description": "High quality tyres for impeccable handling around the fast food restaurant carpark of your choice.",
+        "image": "/img/products/tyres.jpg",
+        "imageDescription": "Tyres",
+        "variants": [
+            {
+                "id": "4-1",
+                "name": "Standard",
+                "price": 69.99,
+                "stock": 99
+            },
+            {
+                "id": "4-2",
+                "name": "Run flat",
+                "price": 89.99,
+                "stock": 0
+            }
+        ]
+    },
+    {
+        "id": 5,
+        "name": "Exhaust",
+        "description": "A shiny new exhaust, complete with vanity cover for that extra bling factor!",
+        "image": "/img/products/exhaust.jpg",
+        "imageDescription": "Tyres",
+        "price": 149.99,
+        "stock": 0
+    }
+]
