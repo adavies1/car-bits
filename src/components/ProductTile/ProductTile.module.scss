@@ -1,3 +1,5 @@
+@import '../../shared/sass-variables';
+
 .tile {
     display: flex;
     flex-direction: column;
@@ -8,7 +10,7 @@
 }
 
 .image {
-    height: 200px;
+    height: 150px;
     width: 100%;
     object-fit: contain;
     background-color: var(--colour-white);
@@ -64,4 +66,11 @@
 .variants {
     width: 100%;
     margin-bottom: 10px;
+}
+
+
+@media (min-width: $breakpoint-desktop-min) {
+    .image {
+        height: 200px;
+    }
 }
